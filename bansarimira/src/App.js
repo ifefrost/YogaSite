@@ -18,8 +18,8 @@ function App() {
             <Route path='/instructors' element={<Instructors />} />
             <Route path='/contact' element={<Contact />} />
         </Routes>
-      </Router>
         <Footer />
+      </Router>
     </div>
   );
 }

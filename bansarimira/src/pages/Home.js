@@ -16,7 +16,14 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <h1 className=''>Home</h1>
+            <div className="max-w-4xl mx-auto flex py-10 gap-5">
+              <div className="rounded-md border-2 border-[#7F7F7F] bg-[#E7CBAE] bg-opacity-5 border-opacity-10 p-5 w-1/2">
+                <p className='text-[#7F7F7F] text-opacity-90'>BansariMira is a giant breath of fresh air, from the moment you walk in the door. <strong>We are your sacred break fron the busy</strong>, a moment to ground your day.</p>
+              </div>
+              <div className="rounded-md border-2 border-[#7F7F7F] bg-[#E7CBAE] bg-opacity-10 p-5 border-opacity-10 w-1/2">
+                <p className='text-[#7F7F7F] text-opacity-90'>We believe in the strength of connection; connection with your physical self and connection to the greater world around you. We understand the cyclical nature of our lives and our practices. we are passionate about creating a space where everybody is family.</p>
+              </div>
+            </div>
         </div>
     );
 };

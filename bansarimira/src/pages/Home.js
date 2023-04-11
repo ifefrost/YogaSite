@@ -24,7 +24,9 @@ const Home = () => {
                 <p className='text-[#7F7F7F] text-opacity-90'>We believe in the strength of connection; connection with your physical self and connection to the greater world around you. We understand the cyclical nature of our lives and our practices. we are passionate about creating a space where everybody is family.</p>
               </div>
             </div>
+            
         </div>
+        
     );
 };
 

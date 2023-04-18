@@ -7,20 +7,20 @@ const Home = () => {
   const classes = [
     {
       id: 1,
-      name: 'Yoga for Beginners',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
+      name: 'Mind over Matter',
+      description: 'Make your mind achieve more with movement on the mat.',
       image: class1
     },
     {
       id: 2,
-      name: 'Yoga for Beginners',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
+      name: 'Planks for nothing',
+      description: 'Planks can make a minute feel like an hour, push through it.',
       image: class2
     },
     {
       id: 3,
-      name: 'Yoga for Beginners',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
+      name: 'Core O clock',
+      description: 'Total core workout, strenghten the abdomen, and spine.',
       image: class3
     }
   ]
@@ -53,7 +53,7 @@ const Home = () => {
                 <h3 className='leading-none font-bold text-[2rem] text-[#7F7F7F] mb-5'>Check out our Classes</h3>
                 <div className="grid grid-cols-3 gap-4 py-9">
                   {classes.map((item) => (
-                    <Card key={item.id} title={item.name} description={item.description} image={item.image} link={'#'} />
+                    <Card key={item.id} title={item.name} description={item.description} image={item.image} link={'classes'} />
                   ))}
                 </div>
               </div>

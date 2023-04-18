@@ -9,12 +9,12 @@ const Footer = () => {
                 <ul className="footer-links">
                     <li>
                         <Link to="/" className="footer-link">
-                            home about
+                            Home
                         </Link>
                     </li>
                     <li>
                         <Link to="/classes" className="footer-link">
-                            classes
+                            Our Classes
                         </Link>
                     </li>
                     <li>
@@ -24,7 +24,7 @@ const Footer = () => {
                     </li>
                     <li>
                         <Link to="/contact" className="footer-link">
-                            contact form
+                            Contact Us
                         </Link>
                     </li>
                 </ul>
